@@ -1,0 +1,12 @@
+<div class="main-container">
+<h1>Product Catalogue</h1>
+    <div class="item-card">
+        @for (item of product$ | async; track $index) {
+            <h3>{{item.name}}</h3>
+            <img [src]="item.image" alt="">
+            <p>{{item.creationAt | date:"MMM dd, yyyy"}}</p>
+            <p>{{item.updatedAt | date:"MMM dd, yyyy"}}</p>
+        }
+    </div>
+</div>
+
