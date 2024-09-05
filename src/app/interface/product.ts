@@ -4,4 +4,6 @@ export interface Product {
     image: string;
     creationAt: string;
     updatedAt: string;
+    quantity: number;
+    addedToCart: boolean;
 }
