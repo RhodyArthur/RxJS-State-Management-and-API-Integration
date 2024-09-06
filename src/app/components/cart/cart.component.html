@@ -1,1 +1,19 @@
-<p>cart works!</p>
+<div class="cart-container" >
+    <h1>Cart ({{cartService.totalItems$ | async}})</h1>
+    @for (item of cartItems; track $index) {
+
+        <div class="item-container">
+            <div class="item">
+                <img [src]="item.image" alt="{{item.name}}">
+                <p>{{item.price | currency}}</p>
+            </div>
+
+            <button (click)="removeItem(item)">Remove Item</button>
+        </div>
+    }
+
+    @if (cartItems.length > 0) {
+        <button (click)="clearCart()" class="clear-btn">Clear Cart</button>
+    }
+    
+</div>

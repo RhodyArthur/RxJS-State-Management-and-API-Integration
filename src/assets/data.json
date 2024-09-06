@@ -1,0 +1,32 @@
+[
+    {
+      "id": 0,
+      "name": "Green Heels",
+      "image": "./assets/images/heels.jpg",
+      "price": 1200
+    },
+    {
+      "id":  1,
+      "name": "Red Shoe",
+      "image": "./assets/images/redshoes.jpg",
+      "price": 800
+    },
+    {
+      "id":2,
+      "name": "Blue and Brown Backpack",
+      "image": "./assets/images/backpack.jpg",
+      "price": 1500
+    },
+    {
+      "id": 3,
+      "name": "Brown Sun Hat On Brown And White Floral Sling Bag",
+      "image": "./assets/images/brownbag.jpg",
+      "price": 950
+    },
+    {
+      "id": 4,
+      "name": "Pair Of White And Red Shoes",
+      "image": "./assets/images/sneakers.jpg",
+      "price": 110
+    }
+]

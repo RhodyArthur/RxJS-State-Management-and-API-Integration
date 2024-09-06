@@ -11,7 +11,7 @@ export class ProductService {
   constructor(private http: HttpClient) { }
 
   // api url
-  private apiUrl = 'https://api.escuelajs.co/api/v1/categories'
+  private apiUrl = 'assets/data.json'
 
   // fetch data from api
   getProductData(): Observable<Product[]> {
